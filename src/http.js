@@ -1,3 +1,3 @@
-export const httpGet = () => {
-
+export const  httpGet = () => {
+  return JSON.stringify({});
 };
