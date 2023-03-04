@@ -1,4 +1,4 @@
-import calculateCashback from "../cashback";
+import calculateCashback from '../cashback';
 
 test.each([
   ['gold', 100000, 5000],
@@ -8,4 +8,4 @@ test.each([
 ])('testing cashback function with %s status and %i amount', (status, amount, expected) => {
   const result = calculateCashback(amount);
   expect(result).toBe(expected);
-})
+});
